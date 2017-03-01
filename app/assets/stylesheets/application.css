@@ -31,16 +31,16 @@ a {
 
 .main {
     height: 400px;
-    width: 70%;
+    width: 100%;
     margin-top: 10px;
-    opacity: 0.7;
+    opacity: 0.9;
     /*background-image: url("http://del.h-cdn.co/assets/15/48/1600x800/landscape-1448313938-friends-eating-meal-table-view.jpg");*/
     /*background-image: url("http://66.media.tumblr.com/72d90835ed6c6ec261568ec6fca16fc9/tumblr_mw0ysq2zsG1t0mwdqo5_1280.jpg");*/
     /*background-image: url("https://s-media-cache-ak0.pinimg.com/originals/2f/fa/1c/2ffa1c66eb3c132e715765a515e48acb.jpg");*/
     /*background-image: url("http://www.maisondereefur.com/blog/daikanyama/wp-content/uploads/AL_1153-e1447338437148.jpg");*/
     background-image: url("https://od.cf.ua/m/blog/f8d4e5c7591684008581db312071bb70/images/577e96efd2d23.jpg");
     padding-top: 200px;
-    padding-left: 400px;
+    /*padding-left: 400px;*/
 }
 
 .main .container h1 {
@@ -48,7 +48,8 @@ a {
     font-size: 50px;
     /*color: #89907F;*/
     color: #FBF9F7;
-    text-decoration: underline;
+    text-align: center;
+    /*text-decoration: underline;*/
 }
 .search h2 {
   font-family: 'Abril Fatface', cursive;
@@ -56,6 +57,7 @@ a {
   font-weight: lighter;
   color: #FBF9F7;
   display: inline;
+  text-align: center;
 }
 
 h2 {
@@ -69,8 +71,8 @@ h1 {
   /*font-family: 'Abril Fatface', cursive;*/
   font-family: 'Lato', sans-serif;
   /*font-weight: lighter;*/
-  font-size: 25px;
-  color: #89907F;
+  font-size: 45px;
+  color: #FBF9F7;
   margin-bottom: 30px;
 }
 
@@ -118,6 +120,13 @@ h1 {
   font-size: 3em;
 }
 
+input#search {
+  width: 400px;
+  margin: 10px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
 #back-link{
 }
 
@@ -132,6 +141,15 @@ footer {
 
 #reserve {
   font-size: 10em;
+}
+
+.search {
+    text-align: center;
+}
+
+.container {
+  background: grey;
+  opacity: 0.9;
 }
 /*.nav li {
   font-weight: bolder;
